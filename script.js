@@ -23,12 +23,4 @@ function myFunction() {
     
     //CLIENT LOGO SLIDER
     $(function() {
-    var $clientslider = $('#clientlogo');
-    var clients = $clientslider.children().length;
-    var clientwidth = (clients * 220); 
-    $clientslider.css('width', clientwidth);
-
-
-    
-    
-     
+ 
