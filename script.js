@@ -27,19 +27,12 @@ function myFunction() {
     var clients = $clientslider.children().length;
     var clientwidth = (clients * 220); 
     $clientslider.css('width', clientwidth);
-    var rotating = true;
-    
-    mouseleave: function() {
-    rotating = true;
-    }
-    }, '#ourclients');
+
     function rotateClients() {
     if (rotating != false) {
     var $first = $('#clientlogo li:first');
     $first.animate({
-    'margin-left': '-245px'
-    }, 2000, function() {
-    $first.remove().css({
+    
     'margin-left': '0px'
     });
     $('#clientlogo li:last').after($first);
