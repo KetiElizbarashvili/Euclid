@@ -28,18 +28,7 @@ function myFunction() {
     var clientwidth = (clients * 220); 
     $clientslider.css('width', clientwidth);
 
-    function rotateClients() {
-    if (rotating != false) {
-    var $first = $('#clientlogo li:first');
-    $first.animate({
-    
-    'margin-left': '0px'
-    });
-    $('#clientlogo li:last').after($first);
-    });
-    }
-    }
-    });
+
     
     
      
