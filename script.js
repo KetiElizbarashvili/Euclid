@@ -10,3 +10,15 @@ function myFunction() {
     x.cl
     
     
+    
+    
+    
+    //ONSCROLL FUNCTION
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+
+    
+    //CLIENT LOGO SLIDER
+    $(function() {
+ 
