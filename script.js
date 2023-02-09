@@ -18,7 +18,5 @@ function myFunction() {
     
     function scrollFunction() {
 
-    
-    //CLIENT LOGO SLIDER
-    $(function() {
+
  
