@@ -13,10 +13,4 @@ function myFunction() {
     
     
     
-    //ONSCROLL FUNCTION
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-
-
- 
+   
