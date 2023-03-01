@@ -9,12 +9,3 @@ function myFunction() {
     } else {
     x.className = "topnav";
     }
-    }
-    
-    
-    
-    
-    
-    //ONSCROLL FUNCTION
-    window.onscroll = function() {scrollFunction()};
-    
