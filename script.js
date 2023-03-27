@@ -34,13 +34,7 @@ function myFunction() {
     $clientslider.css('width', clientwidth);
     var rotating = true;
     var clientspeed = 1800;
-    var seeclients = setInterval(rotateClients, clientspeed);
-    $(document).on({
-    mouseenter: function() {
-    rotating = false;
-    },
-    mouseleave: function() {
-    rotating = true;
+;
     }
     }, '#ourclients');
     function rotateClients() {
