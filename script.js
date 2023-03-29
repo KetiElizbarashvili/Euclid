@@ -37,12 +37,7 @@ function myFunction() {
     'margin-left': '-245px'
     }, 2000, function() {
     $first.remove().css({
-    'margin-left': '0px'
-    });
-    $('#clientlogo li:last').after($first);
-    });
-    }
-    }
+
     });
     
     
