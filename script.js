@@ -32,13 +32,4 @@ function myFunction() {
     }, '#ourclients');
     function rotateClients() {
     if (rotating != false) {
-    var $first = $('#clientlogo li:first');
-    $first.animate({
-    'margin-left': '-245px'
-    }, 2000, function() {
-    $first.remove().css({
-
-    });
-    
-    
-     
+  
