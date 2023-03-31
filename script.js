@@ -25,11 +25,3 @@ function myFunction() {
 
     
     
-    
-    //CLIENT LOGO SLIDER
-    $(function() {
-   
-    }, '#ourclients');
-    function rotateClients() {
-    if (rotating != false) {
-  
